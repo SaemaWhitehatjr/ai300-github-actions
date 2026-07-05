@@ -10,5 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Show Repository Files
+        run: ls -la
+
       - name: Print Message
         run: echo "Hello AI-300"
