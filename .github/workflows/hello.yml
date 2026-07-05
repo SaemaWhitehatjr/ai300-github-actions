@@ -33,6 +33,9 @@ jobs:
       - name: Show Operating System
         run: uname -a
 
+      - name: Run Python Script
+        run: python app.py
+
       - name: Print Message
         run: echo "Hello AI-300"
 
