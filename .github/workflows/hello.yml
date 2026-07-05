@@ -1,0 +1,12 @@
+name: Hello AI-300
+
+on:
+  push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Message
+        run: echo "Hello AI-300"
