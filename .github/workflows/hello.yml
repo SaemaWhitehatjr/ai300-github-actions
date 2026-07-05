@@ -1,7 +1,9 @@
 name: Hello AI-300
 
 on:
-  push
+  push:
+
+  workflow_dispatch:
 
 jobs:
   hello:
