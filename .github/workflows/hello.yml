@@ -2,7 +2,8 @@ name: Hello AI-300
 
 on:
   push:
-
+    paths:
+      - app.py
   workflow_dispatch:
 
 jobs:
