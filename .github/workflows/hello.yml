@@ -23,6 +23,15 @@ jobs:
 
       - name: Show Secret
         run: echo "Hello ${{ secrets.STUDENT_NAME }}"
+        
+      - name: Show Current Folder
+        run: pwd
+
+      - name: Show Current User
+        run: whoami
+
+      - name: Show Operating System
+        run: uname -a
 
       - name: Print Message
         run: echo "Hello AI-300"
