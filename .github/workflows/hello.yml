@@ -33,6 +33,9 @@ jobs:
       - name: Show Operating System
         run: uname -a
 
+      - name: Install Package
+        run: pip install requests 
+
       - name: Run Python Script
         run: python app.py
 
