@@ -21,5 +21,9 @@ jobs:
       - name: Show Variable
         run: echo "Learning $COURSE"
 
+      - name: Show Secret
+        run: echo "Hello ${{ secrets.STUDENT_NAME }}"
+
       - name: Print Message
         run: echo "Hello AI-300"
+`
